@@ -26,8 +26,33 @@ p{
 }
 .container-services{
     background-image:url("../images/s_image\ \(1\).jpg");
+    background-position:cover;
     width:100%;
     text-align:center;
+    color:white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+h5{
+    margin-left:30%;
+}
+.container{
+    text-align:center;
+
+}
+.container  p{
+    display:none;
+}
+.title1{
+    display:none;
+}
     
 }
 
