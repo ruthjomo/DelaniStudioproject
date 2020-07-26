@@ -73,7 +73,7 @@ h5{
     font-style:bold;
     font-size:30px;
 }
-#studio {
+#studio #phoenix #pyramid #jim #good-day #calculator #logo #giraffe{
     display:none; 
     position: absolute;
     width:100%;
@@ -95,6 +95,8 @@ h5{
 }
 .container-fluid form{
     margin-top:2%;
+    
+    
 }
 footer{
     margin-left:30%;
