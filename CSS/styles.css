@@ -48,14 +48,18 @@ h5{
     margin-top:3%;
 
 }
-.container  p{
+#design-p{
     display:none;
 }
-.title1{
+#development-p{
     display:none;
 }
+#product-p{
+    display:none;
+}
+
     
-}
+
 
  
     

@@ -1,7 +1,15 @@
 $(document).ready(function(){
-    $("#clickable").click(function(){
-        $("#clickable").hide();
-            $(".what-we-do").show();
+    $(".design").click(function(){
+        $("#design-p").toggle();
+            $("#design").toggle();
         
     });
+    $(".development").click(function(){
+        $("#development-p").toggle();
+            $("#development").toggle();
+    });
+    $(".product").click(function(){
+        $("#product-p").toggle();
+            $("#product").toggle();
+    });                  
 });
