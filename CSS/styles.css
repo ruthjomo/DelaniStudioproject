@@ -1,0 +1,105 @@
+.landingpage{
+        background-image: url("../images//h_img.jpg");  
+         background-position:fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%;
+        color: white;
+        text-align: center;
+        padding-bottom:10%;
+        font-family: 'Gabriela', serif;  
+        padding-top:17%;
+        border:0;
+        font-size:10px; 
+}
+
+h1{
+    padding-top:2%;
+}
+p{
+    font-size:15px;
+}
+#mouse-click{
+    margin-top:100px;
+
+}
+.container-about {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+.container-services{
+    background-image:url("../images/s_image\ \(1\).jpg");
+    background-position:cover;
+    width:100%;
+    height:50%;
+    text-align:center;
+    color:white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+h5{
+    margin-left:45%;
+}
+.container{
+    text-align:center;
+    margin-top:3%;
+
+}
+#design-p{
+    display:none;
+}
+#development-p{
+    display:none;
+}
+#product-p{
+    display:none;
+}
+
+.container-portfolio img {
+    width:100%;
+    height:90%;
+    margin:4px;
+}
+#portfolio{
+    margin-left:45%;
+    font-style:bold;
+    font-size:30px;
+}
+#studio #phoenix #pyramid #jim #good-day #calculator #logo #giraffe{
+    display:none; 
+    position: absolute;
+    width:100%;
+    height:100%;
+    text-align:center;
+    background-color:whitesmoke,0.6;
+    padding-top: 50px;
+  } 
+  
+    
+.container-fluid{
+    background-image:url("../images/background_image.jpg");
+    width:100%;
+    margin-top:5%;
+}
+.container-fluid h6{
+    margin-top:3%;
+    color:white;
+}
+.container-fluid form{
+    margin-top:2%;
+    
+    
+}
+footer{
+    margin-left:30%;
+    margin-top:2%;
+}
+
