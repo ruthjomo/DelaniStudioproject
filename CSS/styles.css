@@ -19,6 +19,10 @@ h1{
 p{
     font-size:15px;
 }
+#mouse-click{
+    margin-top:100px;
+
+}
 .container-about {
     text-align: center;
     padding-bottom: 30px;
@@ -28,6 +32,7 @@ p{
     background-image:url("../images/s_image\ \(1\).jpg");
     background-position:cover;
     width:100%;
+    height:50%;
     text-align:center;
     color:white;
     text-align: center;
@@ -66,6 +71,7 @@ h5{
 #portfolio{
     margin-left:45%;
     font-style:bold;
+    font-size:30px;
 }
 #studio {
     display:none; 
@@ -81,6 +87,17 @@ h5{
 .container-fluid{
     background-image:url("../images/background_image.jpg");
     width:100%;
+    margin-top:5%;
 }
-
+.container-fluid h6{
+    margin-top:3%;
+    color:white;
+}
+.container-fluid form{
+    margin-top:2%;
+}
+footer{
+    margin-left:30%;
+    margin-top:2%;
+}
 
