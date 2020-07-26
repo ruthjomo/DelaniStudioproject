@@ -23,7 +23,7 @@
 
 });
 $(document).ready(function(){
-    $("form#formvalidation").submit(function(event){
+    $("form#formValidation").submit(function(event){
       var name=$("input#fill1").val();
       var email=$("input#fill2").val();
       if(name && email){
