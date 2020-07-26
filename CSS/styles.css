@@ -38,13 +38,14 @@ p{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    
+
 }
 h5{
-    margin-left:30%;
+    margin-left:45%;
 }
 .container{
     text-align:center;
+    margin-top:3%;
 
 }
 .container  p{
