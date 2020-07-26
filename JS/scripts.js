@@ -1,9 +1,6 @@
  $(document).ready(function(){
-     $("#mouse-click").click(function(){
-         $(".container-about").show();
-     })
-     $(".design").click(function(){
-         $("#design-p").toggle();
+    $(".design").click(function(){
+        $("#design-p").toggle();
              $("#design").toggle();
         
      });
