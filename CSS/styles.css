@@ -73,14 +73,14 @@ h5{
     font-style:bold;
     font-size:30px;
 }
-#studio #phoenix #pyramid #jim #good-day #calculator #logo #giraffe{
+.studio .phoenix .pyramid .jim .good-day .calculator .logo .giraffe{
     display:none; 
-    position: absolute;
+    /* position: absolute;
     width:100%;
     height:100%;
     text-align:center;
     background-color:whitesmoke,0.6;
-    padding-top: 50px;
+    padding-top: 50px; */
   } 
   .container-fluidcontact{
     background-image:url("../images/background_image.jpg");
