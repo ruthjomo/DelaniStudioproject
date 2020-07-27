@@ -82,9 +82,7 @@ h5{
     background-color:whitesmoke,0.6;
     padding-top: 50px;
   } 
-  
-    
-.container-fluid{
+  .container-fluid{
     background-image:url("../images/background_image.jpg");
     width:100%;
     margin-top:5%;
@@ -95,8 +93,6 @@ h5{
 }
 .container-fluid form{
     margin-top:2%;
-    
-    
 }
 footer{
     margin-left:30%;
