@@ -92,16 +92,22 @@ h5{
 .container-fluid  {
     background-image:url("../images/background_image.jpg");
     width:100%;
-    
+    /* position:center; */
+    padding:0px;
+    text-decoration:white;
 }
-#comment{
+.contact{
+    margin-top:3%;
+    position:center;
     color:white;
 }
-.form-group {
-    color:white;
+::placeholder{
+    text-decoration-color:white;
+    opacity:1;
 }
+
 #fill1 {
-    margin-left:30%;
+    margin-left:25%;
     border-width:1px white;
     background:transparent;
 }
@@ -114,6 +120,13 @@ h5{
 #comment{
     border-width:1px white;
     background:transparent;
+    color:white;
+    width:60%;
+    margin-left:25%;
+    margin-bottom:5%;
+}
+button{
+    margin-bottom:4%;
 }
 footer{
     margin-left:30%;
