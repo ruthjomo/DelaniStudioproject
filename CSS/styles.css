@@ -82,17 +82,19 @@ h5{
     background-color:whitesmoke,0.6;
     padding-top: 50px;
   } 
-  .container-fluid{
+  .container-fluidcontact{
     background-image:url("../images/background_image.jpg");
+    background-position:cover;
     width:100%;
     margin-top:5%;
-    background-size:cover;
+    
+
 }
-.container-fluid h6{
+.container-fluidcontact h6{
     margin-top:3%;
     color:white;
 }
-.container-fluid form{
+.container-fluidcontact form{
     margin-top:2%;
 }
 footer{
