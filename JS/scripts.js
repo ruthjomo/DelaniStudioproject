@@ -20,10 +20,11 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("form#formValidation").submit(function(event){
-      var name=$("input#fill1").val();
-      var email=$("input#fill2").val();
+      var name = $("input#fill1").val();
+      var email = $("input#fill2").val();
+      var message = $("textarea#comment").val();
       if(name && email){
-          alert(name + ",we have received your message." +"Thank you for reaching out to us." );
+          alert(name + ",we have received your message.Thank you for reaching out to us.");
     }else{
           alert("Please,fill in your name and email!");
     }
