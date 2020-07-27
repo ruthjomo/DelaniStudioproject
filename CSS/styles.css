@@ -94,11 +94,9 @@ h5{
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.contact  {
+.container-fluid  {
     background-image:url("../images/background_image.jpg");
-    background-position:cover;
-    width:100%; 
-    margin-top:5%;
+    
 }
 
 footer{
