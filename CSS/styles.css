@@ -73,28 +73,52 @@ h5{
     font-style:bold;
     font-size:30px;
 }
-.studio .security .pyramid .jim .good .calc .logo-image .giraffe-logo{
-    display:none; 
-    /* position: absolute;
+  .studio{
+    position: absolute;
     width:100%;
     height:100%;
     text-align:center;
     background-color:whitesmoke,0.6;
-    padding-top: 50px; */
+    padding-top: 50px; 
   } 
-  .container-fluidcontact{
+  
+/* .security{
+      display:none;
+  }
+.pyramid{
+    display:none;
+}
+.jim{
+    display:none;
+}
+.good{
+    display:none;
+}
+.calc{
+    display:none;
+}
+.{
+    display:none;
+} */
+
+  
+  
+
+    
+  .contact  {
     background-image:url("../images/background_image.jpg");
     background-position:cover;
-    width:100%;
+    /* height:100vh; */
+     width:100%; 
     margin-top:5%;
 }
-.container-fluidcontact h6{
+/* .container-fluid h6{
     margin-top:3%;
     color:white;
 }
-.container-fluidcontact form{
+.container-fluid form{
     margin-top:2%;
-}
+} */
 footer{
     margin-left:30%;
     margin-top:2%;

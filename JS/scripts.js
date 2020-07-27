@@ -11,13 +11,13 @@
          $("#product-p").toggle();
              $("#product").toggle();
     }); 
-     $(".black-studio").mouseOver(function(){
-         $("#studio").show();
-    }).mouseOut(function(){
-         $("#studio").hide();
-    });
-
 });
+$(document).ready(function(){
+    $("#black-studio").hover(function(){
+        $(this).children(".studio").fadeToggle("slow");
+   });
+});
+
 $(document).ready(function(){
     $("form#formValidation").submit(function(event){
       var name=$("input#fill1").val();
