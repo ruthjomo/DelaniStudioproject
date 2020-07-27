@@ -13,8 +13,8 @@
     }); 
 });
 $(document).ready(function(){
-    $("#black-studio").hover(function(){
-        $(this).children(".studio").fadeToggle("slow");
+    $(".studio").hover(function(){
+        $(this).find("div").toggleClass(".studio-description_show");
    });
 });
 
