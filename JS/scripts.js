@@ -2,21 +2,20 @@
     $(".design").click(function(){
         $("#design-p").toggle();
              $("#design").toggle();
-        
-     });
+    });
      $(".development").click(function(){
          $("#development-p").toggle();
              $("#development").toggle();
-     });
+    });
      $(".product").click(function(){
          $("#product-p").toggle();
              $("#product").toggle();
-     }); 
+    }); 
      $(".black-studio").mouseOver(function(){
          $("#studio").show();
-     }).mouseOut(function(){
+    }).mouseOut(function(){
          $("#studio").hide();
-     });
+    });
 
 });
 $(document).ready(function(){
@@ -25,9 +24,9 @@ $(document).ready(function(){
       var email=$("input#fill2").val();
       if(name && email){
           alert(name + ",we have received your message." +"Thank you for reaching out to us." );
-      }else{
+    }else{
           alert("Please,fill in your name and email!");
-      }
+    }
     });
 }) ;
 
