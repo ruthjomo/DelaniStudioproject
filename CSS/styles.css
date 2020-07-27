@@ -86,6 +86,7 @@ h5{
     background-image:url("../images/background_image.jpg");
     width:100%;
     margin-top:5%;
+    background-size:cover;
 }
 .container-fluid h6{
     margin-top:3%;
