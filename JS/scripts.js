@@ -14,7 +14,7 @@
 });
 $(document).ready(function(){
     $(".studio").hover(function(){
-        $(this).find("div").toggleClass(".studio-description_show");
+        $(this).find("div").toggleClass("studio-description_show");
    });
 });
 
