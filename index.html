@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link href="CSS/styles.css" rel="stylesheet" type="text/css">
     <link src="./Varta.Bold.ttf">
 </head>
@@ -42,7 +44,7 @@
   <p id="design-p">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. <br> Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
     </div>
     <div class="col-md-4 development">
-        <img src="images/dev_icon.png" alt="development-icon" id="development">
+      <img src="images/dev_icon.png" alt="development-icon" id="development">
         <h6>DEVELOPMENT</h6>
         <p id="development-p">All engineers are fluent in the latest enterprise, mobile and web development technologies. <br>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
     </div>
@@ -53,43 +55,44 @@
     </div>
     <h6 id="portfolio">PORTFOLIO</h6>
 <div class="container-portfolio">
-    <div class="row">
-        <div class="col-md-3 black-studio" >
-            <img src="images/work4.jpg" alt="blackstudio-image" id="black-studio" >
-            <h6 id="studio">BLACK STUDIO</h6>
-        </div>
-        <div class="col-md-3" id="phoenix">
-        <img src="images/work3.jpg" alt="pyramids-image">
-        <h6 id="phoenix">PHOENIX SECURITY</h6>
-        </div>
-        <div class="col-md-3 pyramids">
-         <img src="images/work2.jpg" alt="work-image" id="pyramids">
-        <h6 id="pyramid">PYRAMIDS</h6>
-        </div>
-        <div class="col-md-3 jim-carrey">
-        <img src="images/work1.jpg" alt="work-image" id="jim-carrey">
-        <h6 id="jim">JIM CARREY</h6>
-      </div>
- </div>
   <div class="row">
-         <div class="col-md-3 good-day">
-         <img src="images/work5.jpg" alt="image" id="good-day">
-         <h6 id="good-day">HAVE A GOOD DAY</h6>
-     </div>
-     <div class="col-md-3 calculator">
-        <img src="images/work6.jpg" alt="calculator-image" id="calculator">
-        <h6 id="calculator">CALCULATOR PROJECT</h6>
+    <div class="col-md-3 studio" >
+      <img src="images/work4.jpg" alt="blackstudio-image">
+      <div class="studio-description"><h6 >BLACK STUDIO</h6></div>
     </div>
-    <div class="col-md-3 logo">
-        <img src="images/work7.jpg" alt="logo-image" id="logo">
-        <h6 id="logo">LOGO</h6>
+    <div class="col-md-3 studio" >
+      <img src="images/work3.jpg" alt="pyramids-image">
+      <div class="studio-description"><h6 >PHOENIX PROJECT</h6></div>
     </div>
-    <div class="col-md-3 giraffe">
-        <img src="images/work8.jpg" alt="business-logo" id="giraffe">
-        <h6 id="giraffe">GIRAFFE RESTAURANT</h6>
+    <div class="col-md-3 studio">
+      <img src="images/work2.jpg" alt="work-image">
+      <div class="studio-description"><h6 >PYRAMIDS</h6></div>
     </div>
- </div>
+    <div class="col-md-3 studio">
+      <img src="images/work1.jpg" alt="work-image">
+      <div class="studio-description"><h6 >JIM CARREY</h6></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 studio">
+      <img src="images/work5.jpg" alt="image">
+      <div class="studio-description"><h6 >HAVE A GOOD DAY</h6></div>
+    </div>
+    <div class="col-md-3 studio">
+      <img src="images/work6.jpg" alt="calculator-image">
+      <div class="studio-description"><h6 >CALCULATOR</h6></div>
+    </div>
+    <div class="col-md-3 studio">
+      <img src="images/work7.jpg" alt="logo-image">
+      <div class="studio-description"><h6 ></h6>LOGO</div>
+    </div>
+    <div class="col-md-3 studio">
+      <img src="images/work8.jpg" alt="business-logo" id="giraffe">
+      <div class="studio-description"><h6 >GIRAFFE</h6></div>
+    </div>
+  </div>
 </div>
+
 <div class="container-fluid">
     <h6>CONTACT US</h6>
     <form id="formValidation" action="http://eepurl.com/g_jRr9" method="POST">
@@ -117,7 +120,6 @@
     <p>DELANI STUDIO</p>
     <p>2019</p>
   </footer>
-<script   src="https://code.jquery.com/jquery-3.5.1.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
 <script src="JS/jquery-3.5.1.js"></script>
 <script src="JS/scripts.js"></script>
 </body>

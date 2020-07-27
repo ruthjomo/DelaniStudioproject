@@ -1,19 +1,23 @@
 Delani Studio 
 Author:RUTH MURONJI JOMO
 Description
-This project is .It consists of an about me,my hobbies,projects and contacts.
+This project is a developer website.It consists an about us,services offered,projects done and a user interface part
+where they can send messages and receive responses. 
 
 Project setup instructions
 *Create a github repository *Git clone to my local folder *create gh-pages *deploy project to gh-pages *commit changes made to gh-pages branch
 
 project link
-https://ruthjomo.github.io/Landingpageproject/
+
 
 Known bugs
 I experienced no bugs.
 
 Technologies used
-Html and css languages were used.I added a background slideshow using css and html.
+Html,css,bootstrap,JQuery and javascript languages were used to develop this website.
+
+## Contact
+Communication is via emails and the social media icons in the website.
 
 License
 Copyright (c) {2020}
