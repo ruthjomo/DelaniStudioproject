@@ -101,17 +101,19 @@ h5{
     position:center;
     color:white;
 }
-::placeholder{
-    text-decoration-color:white;
+.form-control::placeholder{
+    color:white;
     opacity:1;
 }
 
 #fill1 {
-    margin-left:25%;
+    width:30%;
+    margin-left:20%;
     border-width:1px white;
     background:transparent;
 }
 #fill2{
+    width:30%;
     float:right;
     margin-left:5%;
     border-width:1px white;
@@ -121,8 +123,8 @@ h5{
     border-width:1px white;
     background:transparent;
     color:white;
-    width:60%;
-    margin-left:25%;
+    width:65%;
+    margin-left:20%;
     margin-bottom:5%;
 }
 button{
