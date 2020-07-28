@@ -1,18 +1,17 @@
 .landingpage{
-        background-image: url("../images//h_img.jpg");  
-         background-position:fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width:100%;
-        color: white;
-        text-align: center;
-        padding-bottom:10%;
-        font-family: 'Gabriela', serif;  
-        padding-top:17%;
-        border:0;
-        font-size:10px; 
+    background-image: url("../images//h_img.jpg");  
+    background-position:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    color: white;
+    text-align: center;
+    padding-bottom:10%;
+    font-family: 'Gabriela', serif;  
+    padding-top:17%;
+    border:0;
+    font-size:10px; 
 }
-
 h1{
     padding-top:2%;
 }
@@ -21,7 +20,6 @@ p{
 }
 #mouse-click{
     margin-top:100px;
-
 }
 .container-about {
     text-align: center;
@@ -43,7 +41,6 @@ p{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-
 }
 h5{
     margin-left:45%;
@@ -51,7 +48,6 @@ h5{
 .container{
     text-align:center;
     margin-top:3%;
-
 }
 #design-p{
     display:none;
@@ -62,7 +58,6 @@ h5{
 #product-p{
     display:none;
 }
-
 .container-portfolio img {
     width:100%;
     height:90%;
@@ -96,9 +91,45 @@ h5{
 }
 .container-fluid  {
     background-image:url("../images/background_image.jpg");
-    
+    width:100%;
+    /* position:center; */
+    padding:0px;
+    text-decoration:white;
+}
+.contact{
+    margin-top:3%;
+    position:center;
+    color:white;
+}
+.form-control::placeholder{
+    color:white;
+    opacity:1;
 }
 
+#fill1 {
+    width:30%;
+    margin-left:20%;
+    border-width:1px white;
+    background:transparent;
+}
+#fill2{
+    width:30%;
+    float:right;
+    margin-left:5%;
+    border-width:1px white;
+    background:transparent;
+}
+#comment{
+    border-width:1px white;
+    background:transparent;
+    color:white;
+    width:65%;
+    margin-left:20%;
+    margin-bottom:5%;
+}
+button{
+    margin-bottom:4%;
+}
 footer{
     margin-left:30%;
     margin-top:2%;

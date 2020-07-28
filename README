@@ -1,5 +1,7 @@
 Delani Studio 
+
 Author:RUTH MURONJI JOMO
+
 Description
 This project is a developer website.It consists an about us,services offered,projects done and a user interface part
 where they can send messages and receive responses. 
@@ -7,16 +9,21 @@ where they can send messages and receive responses.
 Project setup instructions
 *Create a github repository *Git clone to my local folder *create gh-pages *deploy project to gh-pages *commit changes made to gh-pages branch
 
-project link
-
+Project link
+https://ruthjomo.github.io/DelanistudioProject/
 
 Known bugs
 I experienced no bugs.
 
+Independencies
+*javascript
+*bootstrap
+*JQuery
+
 Technologies used
 Html,css,bootstrap,JQuery and javascript languages were used to develop this website.
 
-## Contact
+Contact Information.
 Communication is via emails and the social media icons in the website.
 
 License
