@@ -1,12 +1,12 @@
-Delani Studio 
+ #Delani Studio 
+####Monday 27th July 2020
+ ## Author:RUTH MURONJI JOMO
 
-Author:RUTH MURONJI JOMO
-
-Description
+### Description
 This project gives a description of Delani fictional studio.It consists an about us,services offered,projects done and a user interface part
 where they can send messages and receive responses. 
 
-Project setup instructions
+###Project setup instructions
 *Create a project folder through the terminal
 *Add files to the folder
 *Create a github repository 
@@ -15,18 +15,18 @@ Project setup instructions
 *deploy project to gh-pages
 *commit changes made to gh-pages branch
 
-Project link
+##Project link
 https://ruthjomo.github.io/DelanistudioProject/
 
-Known bugs
+##Known bugs
 I experienced no bugs.
 
-Independencies
-*javascript
+##Independencies
 *bootstrap
+*Mailchimp API
 *JQuery
 
-Technologies used
+## Technologies used
 Html-For building Mark Up pages
 css-for styling User Interface
 bootstrap-for making webpages responsive
@@ -34,8 +34,8 @@ JQuery -for animations
 javascript -for document object manipulation
 Mailchimp API-for tracking emails and messages from users input
 
-Contact Information.
+## Contact Information.
 Communication is via emails and the social media icons in the website.
 
-License
+## License
 Copyright (c) {2020}
