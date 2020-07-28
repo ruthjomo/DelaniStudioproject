@@ -3,11 +3,17 @@ Delani Studio
 Author:RUTH MURONJI JOMO
 
 Description
-This project is a developer website.It consists an about us,services offered,projects done and a user interface part
+This project gives a description of Delani fictional studio.It consists an about us,services offered,projects done and a user interface part
 where they can send messages and receive responses. 
 
 Project setup instructions
-*Create a github repository *Git clone to my local folder *create gh-pages *deploy project to gh-pages *commit changes made to gh-pages branch
+*Create a project folder through the terminal
+*Add files to the folder
+*Create a github repository 
+*Git clone your repository to  local folder 
+*create gh-pages 
+*deploy project to gh-pages
+*commit changes made to gh-pages branch
 
 Project link
 https://ruthjomo.github.io/DelanistudioProject/
@@ -21,7 +27,12 @@ Independencies
 *JQuery
 
 Technologies used
-Html,css,bootstrap,JQuery and javascript languages were used to develop this website.
+Html-For building Mark Up pages
+css-for styling User Interface
+bootstrap-for making webpages responsive
+JQuery -for animations
+javascript -for document object manipulation
+Mailchimp API-for tracking emails and messages from users input
 
 Contact Information.
 Communication is via emails and the social media icons in the website.
